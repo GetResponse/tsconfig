@@ -1,0 +1,23 @@
+{
+    "name": "@getresponse/tsconfig",
+    "version": "0.0.0",
+    "description": "Common tsconfig.json files",
+    "homepage": "https://github.com/GetResponse/tsconfig",
+    "main": "configs/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:GetResponse/tsconfig.git"
+    },
+    "keywords": [
+        "wbe",
+        "typescript",
+        "ts",
+        "config",
+        "tsconfig"
+    ],
+    "author": "GetResponse",
+    "license": "UNLICENSED",
+    "files": [
+        "configs"
+    ]
+}

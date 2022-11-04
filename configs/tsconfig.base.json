@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "lib": ["es5", "es6", "es7", "es2017", "dom", "es2018", "es2019", "es2020", "es2021", "esnext"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "noUnusedParameters": false,
+    "incremental": true,
+    "noImplicitOverride": true,
+    "useDefineForClassFields": true
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "config",
+    "*/**/*.test.ts",
+    "*/**/*.test.tsx",
+    "lib",
+    "dist"
+  ]
+}
