@@ -1,6 +1,6 @@
 {
     "name": "@getresponse/tsconfig",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Common tsconfig.json files",
     "homepage": "https://github.com/GetResponse/tsconfig",
     "main": "configs/",
@@ -9,7 +9,6 @@
         "url": "git@github.com:GetResponse/tsconfig.git"
     },
     "keywords": [
-        "wbe",
         "typescript",
         "ts",
         "config",
