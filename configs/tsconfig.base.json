@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "strict": true,
-    "strictNullChecks": true,
     "target": "ES2018",
     "lib": ["es5", "es6", "es7", "es2017", "dom", "es2018", "es2019", "es2020", "es2021", "esnext"],
     "sourceMap": true,
