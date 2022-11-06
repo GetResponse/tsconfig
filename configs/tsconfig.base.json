@@ -2,7 +2,7 @@
   "compilerOptions": {
     "strict": true,
     "target": "ES2018",
-    "lib": ["es5", "es6", "es7", "es2017", "dom", "es2018", "es2019", "es2020", "es2021", "esnext"],
+    "lib": ["es5", "es6", "es7", "es2017", "dom", "es2018", "es2019", "es2020", "es2021", "es2022", "esnext"],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
