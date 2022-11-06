@@ -1,6 +1,5 @@
 {
   "extends": "../tsconfig.base.json",
-  "_version": "18.12.1",
   "compilerOptions": {
     "emitDecoratorMetadata": true,
     "module": "ES2022",
