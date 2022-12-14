@@ -23,7 +23,8 @@
     "noUnusedParameters": false,
     "incremental": true,
     "noImplicitOverride": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "useUnknownInCatchVariables": true
   },
   "include": [
     "src/**/*",
