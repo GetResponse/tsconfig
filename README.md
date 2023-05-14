@@ -28,5 +28,5 @@ This package contains a universal tsconfig file that is optimized for browser, l
         "extends": "@getresponse/tsconfig/configs/browser/tsconfig.json"
    }
    ```
-   
-That's it! Now you can enjoy the benefits of using a standardized tsconfig file in your TypeScript projects.
+
+That's it! Now you can enjoy the benefits of using a standardized tsconfig file in your TypeScript projects. 

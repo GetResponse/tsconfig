@@ -8,7 +8,6 @@
     "jsx": "react",
     "module": "esnext",
     "moduleResolution": "nodenext",
-    "rootDir": "./src",
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
