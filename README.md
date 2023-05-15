@@ -29,13 +29,13 @@ This package contains a universal tsconfig file that is optimized for browser, l
    }
    ```
 
-4. Optionally, customize the configuration options based on your project setup::
+4. Optionally, customize the configuration options based on your project setup:
 
-   - `rootDir`: set the root directory of your project (see [rootDir](https://www.typescriptlang.org/tsconfig#rootDir)):
+   - `rootDir`: set the root directory of your project (see [rootDir](https://www.typescriptlang.org/tsconfig#rootDir))
 
-   - `include`: specify which files should be included in the compilation process (see [include](https://www.typescriptlang.org/tsconfig#include)):
+   - `include`: specify which files should be included in the compilation process (see [include](https://www.typescriptlang.org/tsconfig#include))
 
-   - `exclude`: specify which files should be excluded from the compilation process (see [exclude](https://www.typescriptlang.org/tsconfig#exclude)):
+   - `exclude`: specify which files should be excluded from the compilation process (see [exclude](https://www.typescriptlang.org/tsconfig#exclude))
 
    Here's an example with customized options:
    ```json
