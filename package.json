@@ -1,6 +1,6 @@
 {
     "name": "@getresponse/tsconfig",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Common tsconfig.json files",
     "homepage": "https://github.com/GetResponse/tsconfig",
     "main": "configs/",

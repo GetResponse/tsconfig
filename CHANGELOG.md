@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/GetResponse/tsconfig/compare/v1.0.1...v1.0.2) (2023-05-15)
+
+
+### Bug Fixes
+
+* add compilerOption with rootDir ([e806a83](https://github.com/GetResponse/tsconfig/commit/e806a83e39cdca8e40c1f9bdb73a123539a2a499))
+* readme refactor ([f075c37](https://github.com/GetResponse/tsconfig/commit/f075c3747d575601212e36149aefd796b2326ebf))
+* readme refactor ([f3c4593](https://github.com/GetResponse/tsconfig/commit/f3c4593404510b75d7431c54f785c431dec716af))
+* remove some configuration options, and add them as optional in readme ([a9783a9](https://github.com/GetResponse/tsconfig/commit/a9783a95ceeb20046f32bf26397dd82c6e00f8e9))
+
 ## [1.0.1](https://github.com/GetResponse/tsconfig/compare/v1.0.0...v1.0.1) (2023-05-14)
 
 
