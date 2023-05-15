@@ -41,7 +41,9 @@ This package contains a universal tsconfig file that is optimized for browser, l
    ```json
    {
       "extends": "@getresponse/tsconfig/configs/browser/tsconfig.json",
-      "rootDir": "src",
+      "compilerOptions": {
+         "rootDir": "src"
+      },
       "include": [
          "src/**/*",
          "types/**/*"
