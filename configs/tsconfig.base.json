@@ -10,7 +10,6 @@
     "moduleResolution": "nodenext",
     "rootDir": "./src",
     "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": false,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
@@ -29,18 +28,4 @@
     "resolveJsonModule": true,
     "importHelpers": true
   },
-  "include": [
-    "src/**/*",
-    "types/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "build",
-    "scripts",
-    "config",
-    "*/**/*.test.ts",
-    "*/**/*.test.tsx",
-    "lib",
-    "dist"
-  ]
 }

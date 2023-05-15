@@ -29,4 +29,29 @@ This package contains a universal tsconfig file that is optimized for browser, l
    }
    ```
 
+4. Optionally, customize the configuration options based on your project setup::
+
+   - `rootDir`: set the root directory of your project(see ([rootDir](https://www.typescriptlang.org/tsconfig#rootDir))):
+
+   - `include`: specify which files should be included in the compilation process (see ([include](https://www.typescriptlang.org/tsconfig#include))):
+
+   - `exclude`: specify which files should be excluded from the compilation process (see([exclude](https://www.typescriptlang.org/tsconfig#exclude))):
+
+   Here's an example with customized options:
+   ```json
+   {
+      "extends": "@getresponse/tsconfig/configs/browser/tsconfig.json",
+      "rootDir": "src",
+      "include": [
+         "src/**/*",
+         "types/**/*"
+      ],
+      "exclude": [
+         "node_modules",
+         "src/example-nested"
+      ]
+   }
+   ```
+
+
 That's it! Now you can enjoy the benefits of using a standardized tsconfig file in your TypeScript projects.
