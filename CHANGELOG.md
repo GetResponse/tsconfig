@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/GetResponse/tsconfig/compare/v1.0.2...v1.0.3) (2023-05-16)
+
+
+### Bug Fixes
+
+* remove doubled option module ([2c7e982](https://github.com/GetResponse/tsconfig/commit/2c7e98299dd04fe9898defe4feda9afea22b8254))
+* remove doubled option module ([7a00341](https://github.com/GetResponse/tsconfig/commit/7a00341798778c80cfba63318c0e1789e21dd3a9))
+
 ## [1.0.2](https://github.com/GetResponse/tsconfig/compare/v1.0.1...v1.0.2) (2023-05-15)
 
 
