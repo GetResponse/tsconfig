@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/GetResponse/tsconfig/compare/v1.0.3...v1.0.4) (2023-10-03)
+
+
+### Bug Fixes
+
+* Disable `exactOptionalPropertyTypes` ([e57a0ca](https://github.com/GetResponse/tsconfig/commit/e57a0ca5e5ff03db4f5d24a0827ac870955deea8))
+
 ## [1.0.3](https://github.com/GetResponse/tsconfig/compare/v1.0.2...v1.0.3) (2023-05-16)
 
 
