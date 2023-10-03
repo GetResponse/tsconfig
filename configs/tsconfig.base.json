@@ -22,7 +22,7 @@
     "noUncheckedIndexedAccess": true,
     "composite": true,
     "allowUnusedLabels": true,
-    "exactOptionalPropertyTypes": true,
+    "exactOptionalPropertyTypes": false,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "importHelpers": true
