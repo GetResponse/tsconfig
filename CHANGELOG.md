@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/GetResponse/tsconfig/compare/v1.0.4...v1.1.0) (2023-11-13)
+
+
+### Features
+
+* Update tsconfig.base.json ([6e7e4be](https://github.com/GetResponse/tsconfig/commit/6e7e4bef1d4c0bc029aa5508731b1bdf76e9fd27))
+
 ## [1.0.4](https://github.com/GetResponse/tsconfig/compare/v1.0.3...v1.0.4) (2023-10-03)
 
 
