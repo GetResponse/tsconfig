@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "ES2020",
+    "target": "ES2022",
     "lib": ["es5", "es6", "es7", "es2017", "dom", "dom.iterable", "es2018", "es2019", "es2020", "es2021", "es2022", "esnext"],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
     "module": "esnext",
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
     "noImplicitReturns": true,
     "noUnusedLocals": false,
     "forceConsistentCasingInFileNames": true,
@@ -25,6 +26,17 @@
     "exactOptionalPropertyTypes": false,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "rootDir": "${configDir}/src",
+    "outDir": "${configDir}/lib"
   },
+  "include": [
+    "${configDir}/src/**/*"
+  ],
+  "exclude": [
+    "${configDir}/src/**/*.test.ts",
+    "${configDir}/src/**/*.spec.ts",
+    "${configDir}/src/**/*.test.tsx",
+    "${configDir}/src/**/*.spec.tsx"
+  ]
 }
