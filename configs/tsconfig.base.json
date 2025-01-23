@@ -26,6 +26,17 @@
     "exactOptionalPropertyTypes": false,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "rootDir": "${configDir}/src",
+    "outDir": "${configDir}/lib"
   },
+  "include": [
+    "${configDir}/src/**/*"
+  ],
+  "exclude": [
+    "${configDir}/src/**/*.test.ts",
+    "${configDir}/src/**/*.spec.ts",
+    "${configDir}/src/**/*.test.tsx",
+    "${configDir}/src/**/*.spec.tsx"
+  ]
 }
