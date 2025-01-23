@@ -2,7 +2,6 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "emitDecoratorMetadata": true,
-    "module": "es2022",
-    "target": "es2022"
+    "target": "ESNext"
   }
 }
