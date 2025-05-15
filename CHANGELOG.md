@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/GetResponse/tsconfig/compare/v1.6.0...v1.7.0) (2025-05-15)
+
+
+### Features
+
+* Bump version of package ([a8482c2](https://github.com/GetResponse/tsconfig/commit/a8482c21ba5a127855e0672517ca55c968f45823))
+
 # [1.2.0](https://github.com/GetResponse/tsconfig/compare/v1.1.0...v1.2.0) (2025-05-15)
 
 
