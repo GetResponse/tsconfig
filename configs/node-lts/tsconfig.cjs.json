@@ -1,9 +1,9 @@
 {
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-      "emitDecoratorMetadata": true,
-      "module": "commonjs",
-      "target": "es2022"
-    }
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "target": "es2022"
   }
+}
   

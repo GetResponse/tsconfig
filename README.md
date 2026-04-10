@@ -6,6 +6,11 @@
 
 This package contains a universal tsconfig file that is optimized for browser, library, and Node.js LTS projects. It can help you set up your TypeScript projects quickly and easily.
 
+## Compatibility
+
+- `@getresponse/tsconfig@2.x` - TypeScript >=6.0.0 <7.0.0
+- `@getresponse/tsconfig@1.x` - TypeScript 5.x (no longer maintained)
+
 ## Installation
 
 1. Install @getresponse/tsconfig as a development dependency:
@@ -55,5 +60,18 @@ This package contains a universal tsconfig file that is optimized for browser, l
    }
    ```
 
+
+5. TypeScript 6 no longer auto-loads `@types/*` packages. If your project uses type definitions (e.g. `@types/node`, `@types/react`), add them explicitly in your `tsconfig.json`:
+
+   ```json
+   {
+      "extends": "@getresponse/tsconfig/configs/browser/tsconfig.json",
+      "compilerOptions": {
+         "types": ["react", "vite"]
+      }
+   }
+   ```
+
+   Note: `node-lts` configs already include `"types": ["node"]` by default.
 
 That's it! Now you can enjoy the benefits of using a standardized tsconfig file in your TypeScript projects.
