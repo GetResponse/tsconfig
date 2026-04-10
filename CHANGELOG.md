@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/GetResponse/tsconfig/compare/v1.7.0...v2.0.0) (2026-04-10)
+
+
+### Features
+
+* add TypeScript 6 support ([1a9e8e8](https://github.com/GetResponse/tsconfig/commit/1a9e8e86cffe8871445ca858d821c0258cd7fb2a))
+
+
+### BREAKING CHANGES
+
+* requires TypeScript >=6.0.0
+
 # [1.7.0](https://github.com/GetResponse/tsconfig/compare/v1.6.0...v1.7.0) (2025-05-15)
 
 
