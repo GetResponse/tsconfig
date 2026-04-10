@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "ES2020",
-    "lib": ["es5", "es6", "es7", "es2017", "dom", "dom.iterable", "es2018", "es2019", "es2020", "es2021", "es2022", "esnext"],
+    "target": "es2022",
+    "lib": ["es2022", "esnext", "dom", "dom.iterable"],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
@@ -12,12 +12,9 @@
     "noUnusedLocals": false,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "downlevelIteration": true,
     "noUnusedParameters": false,
     "incremental": true,
     "noImplicitOverride": true,
-    "useDefineForClassFields": true,
     "noPropertyAccessFromIndexSignature": false,
     "noUncheckedIndexedAccess": true,
     "composite": true,
@@ -26,5 +23,5 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "importHelpers": true
-  },
+  }
 }
