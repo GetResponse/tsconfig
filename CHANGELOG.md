@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/GetResponse/tsconfig/compare/v2.0.0...v2.0.1) (2026-04-10)
+
+
+### Bug Fixes
+
+* fix problem with release package in npm registry ([a76e82d](https://github.com/GetResponse/tsconfig/commit/a76e82d4f6bb4bcd3345d5af2ee64f5471bb3f4b))
+* fix problem with release package in npm registry (part 2) ([5d2c422](https://github.com/GetResponse/tsconfig/commit/5d2c42207fb0e569ec444281c91607b84484a212))
+
 # [2.0.0](https://github.com/GetResponse/tsconfig/compare/v1.7.0...v2.0.0) (2026-04-10)
 
 
