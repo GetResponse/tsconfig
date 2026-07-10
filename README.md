@@ -8,7 +8,8 @@ This package contains a universal tsconfig file that is optimized for browser, l
 
 ## Compatibility
 
-- `@getresponse/tsconfig@2.x` - TypeScript >=6.0.0 <7.0.0
+- `@getresponse/tsconfig@3.x` - TypeScript >=6.0.0 <8.0.0
+- `@getresponse/tsconfig@2.x` - TypeScript >=6.0.0 <7.0.0 (no longer maintained)
 - `@getresponse/tsconfig@1.x` - TypeScript 5.x (no longer maintained)
 
 ## Installation
@@ -73,5 +74,12 @@ This package contains a universal tsconfig file that is optimized for browser, l
    ```
 
    Note: `node-lts` configs already include `"types": ["node"]` by default.
+
+6. `tsconfig.base.json`, `lib/tsconfig.esm.json`, and `node-lts/tsconfig.json` use `"moduleResolution": "nodenext"`, which requires:
+
+   - `"type": "module"` in your project's `package.json`
+   - explicit file extensions on relative imports, e.g. `import { helper } from './helper.js'` (not `'./helper'`), even though the source file is `helper.ts`
+
+   `browser/tsconfig.json`, `lib/tsconfig.cjs.json`, and `node-lts/tsconfig.cjs.json` use `"moduleResolution": "bundler"` instead and are not affected by either requirement.
 
 That's it! Now you can enjoy the benefits of using a standardized tsconfig file in your TypeScript projects.

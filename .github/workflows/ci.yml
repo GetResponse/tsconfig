@@ -1,0 +1,32 @@
+name: ci
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-configs:
+    name: validate configs (typescript ${{ matrix.typescript }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        typescript: [ 6, 7 ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install typescript ${{ matrix.typescript }}
+        run: npm install --no-save typescript@${{ matrix.typescript }}
+
+      - name: Validate configs
+        run: npm run validate-configs

@@ -6,7 +6,7 @@
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
-    "module": "esnext",
+    "module": "nodenext",
     "moduleResolution": "nodenext",
     "noImplicitReturns": true,
     "noUnusedLocals": false,

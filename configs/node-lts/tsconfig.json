@@ -2,7 +2,7 @@
   "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "emitDecoratorMetadata": true,
-    "module": "es2022",
+    "experimentalDecorators": true,
     "target": "es2022",
     "types": ["node"]
   }
