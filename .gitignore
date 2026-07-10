@@ -114,3 +114,6 @@ Temporary Items
 
 .idea/
 public/
+
+# scripts/validate-configs.mjs scratch dir (created and removed at runtime)
+.tmp-validate-*/
