@@ -1,3 +1,17 @@
+# [3.0.0](https://github.com/GetResponse/tsconfig/compare/v2.0.1...v3.0.0) (2026-07-10)
+
+
+### Features
+
+* add TypeScript 7 support ([d157a62](https://github.com/GetResponse/tsconfig/commit/d157a62fea43fc2ec66dc6c249ad88e8035b35ba))
+
+
+### BREAKING CHANGES
+
+* module/moduleResolution and decorator defaults
+changed in configs/tsconfig.base.json and configs/node-lts/*;
+requires TypeScript >=6.0.0 <8.0.0
+
 ## [2.0.1](https://github.com/GetResponse/tsconfig/compare/v2.0.0...v2.0.1) (2026-04-10)
 
 
